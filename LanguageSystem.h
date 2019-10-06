@@ -55,7 +55,6 @@ typedef struct{
 
 typedef struct LC {
 	int action;
-	int personality;
 	char* word;
 	LanguageCP nextWord;
 }LanguageCell;
