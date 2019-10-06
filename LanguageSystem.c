@@ -57,8 +57,6 @@ int ChatInicialization(LanguageModule *mainLM)
 	if (secondaryLanguage == NULL)
 	{
 		printf("System: Could not find/open %s language file\n", languageFiles[1]);
-
-
 	}
 	else
 	{
@@ -68,16 +66,16 @@ int ChatInicialization(LanguageModule *mainLM)
 
 	if (fileOpened == 2)
 	{
-		return NORMAL;
+		return 0;
 	}
 	else if (fileOpened == 1)
 	{
-		return NOPATH;
+		return 1;
 	}
 	else
 	{
 		printf("CRITICAL ERROR, please check your installation, or your files.\n");
-		return NOLANGFILE;
+		return -1;
 	}
 	fclose(secondaryLanguage);
 
