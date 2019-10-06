@@ -60,10 +60,10 @@ typedef struct LC {
 	LanguageCP nextWord;
 }LanguageCell;
 
-int ChatInicialization(LanguageModule *mainLM, PeMModule *mainPeM);
+int ChatInicialization(LanguageModule *mainLM);
 int checkString(int aux, char line[80], char *info);
 void memoryChatHeadAllocation(LanguageModule *mainLM, int user, char* word, int size, int personality, int action);
-void languageFileOpener(PeMModule *mainPeM, LanguageModule *mainLM, int *filesOpen, FILE *uLFile);
+void languageFileOpener(LanguageModule *mainLM, int *filesOpen, FILE *uLFile);
 
 int UserInput(char *OTalk, LanguageModule *lm);
 #endif
