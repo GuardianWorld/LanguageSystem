@@ -5,12 +5,18 @@ A small language system i made for use with a private project. How to use bellow
 
 
 How to use the LanguageSystem Module?
+
 --  On the libraries, there is some prototypes of variables, as well as some structures.
+
 On the first structure, LanguageCell:
+
 --  It has the action used, defined the the #defines above, they are used for doing certains things in the program. If you are making a Bank Program, one input from the user could call a WELCOMEBACK message, that will recognize it and display on the screen something. 
+
 --  There is a word, that is a char pointer, this place you will allocate the size for fitting the word in your Language File. 
+
 --  There is also a nextWord LanguageCell Pointer there, that will point to the next word in a dinamically allocated list.
 The second structure LanguageModule:
+
 --  This is the main module you will use, and should be active all the time, initialized on the main function, this only has pointers for the LanguageCells, the first one is a pointer for the "Head" of the list, and the second one to the last word. The other Two are for the second user, in this case by name, the program itself.
 
 The Variables:
