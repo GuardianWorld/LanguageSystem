@@ -1,7 +1,7 @@
 # LanguageSystem
 A small language system i made for use with a private project. How to use bellow!
 
-![Showcase](/test.png)
+![Showcase](/Test.png)
 
 How to use the LanguageSystem Module?
 
