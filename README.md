@@ -29,3 +29,10 @@ The Variables:
   The MemoryLanguageHeadAllocation will get the Language Module, and all the variables got on the checkstring + LanguageFileOpener and allocate on memory the words.
   
   The user input will get the user input and check if it coincides to any allocated word. If it is equal, it return it's action to the main function.
+
+
+
+Final considerations:
+ 
+  This is the first version of this module, it does the work right, and it's simple enough to help most people. You can modify it to change user interface/language interface, and removing the Random Effect will help you do it. 
+  The real meat here is the code that Fetch the language file and stores in memory, the communications user->Program and Program->User are there just for demonstration purposes. You are free to use it anyway you want.
