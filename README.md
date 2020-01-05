@@ -35,4 +35,5 @@ The Variables:
 Final considerations:
  
   This is the first version of this module, it does the work right, and it's simple enough to help most people. You can modify it to change user interface/language interface, and removing the Random Effect will help you do it. 
+  
   The real meat here is the code that Fetch the language file and stores in memory, the communications user->Program and Program->User are there just for demonstration purposes. You are free to use it anyway you want.
