@@ -1,0 +1,75 @@
+//||================================================================================================||//
+//||LOTUS EN-US language file, please don't change anything here unless you know what you are doing.||//
+//||================================================================================================||//
+
+//This is the User section of the language file.
+
+//GREETINGS
+[SOA]
+User: 0
+Action: 02
+I: hi
+I: Hi
+I: Hello
+I: hello
+I: hi hi
+[EOA]
+
+//GOODBYE
+[SOA]
+User: 0
+Action: 29
+I: bye
+I: Bye
+I: bye bye
+I: BYE
+I: later
+I: Later
+I: goodbye
+I: Goodbye
+I: GOODBYE
+I: See you later
+I: See You Later
+I: Until Later
+[EOA]
+
+//This is the AI section of the language File. Personality Type: Default
+
+//WELCOMEBACK
+[SOA]
+User: 1
+Action: 01
+I: Hello &u
+I: &u Welcome back
+I: Nice to see you again &u
+[EOA]
+
+//GREETINGS
+[SOA]
+User: 1
+Action: 02
+I: Oh, hi there &u
+I: Hello &u, how are you?
+I: Hello!! What you doing?
+[EOA]
+
+//GOODBYE
+[SOA]
+User: 1
+Action: 29
+I: Bye Bye!!
+I: Bye &u
+I: See you later!
+I: Goodnight!
+I: Until later!
+[EOA]
+
+//INVALIDACT
+[SOA]
+User: 1
+Action: 99
+I: I did not understand what you mean
+I: &u, can you repeat please?
+I: I dont think i know that word or phrase...
+I: Sorry i don't understand!
+[EOA]

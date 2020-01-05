@@ -1,26 +1,27 @@
  ________________________
-|Table of identification:|                
-|[SOA]                   |
-|User                    |
-|Action                  |
-|I: Hello < Words        |               
-|[EOA] << End Of Action  |               
-|________________________|
+|Table of identification:                         
+|[SOA]                                  
+|User                                    
+|Action                                  
+|I: Hello < Words, phrases                               
+|[EOA] << End Of Action                      
+|________________________
 
 Users:
  ________________
-|NEVER SET:  -1  |
-|USER:  	  0	   |
-|Program:   1    |
-|________________|
+|
+|USER:  	  0	      
+|Program:   1           
+|________________
 
 The table of codes is that:
  _________________
-|INTRODUCTION 00  |
-|WELCOMEBACK  01  |
-|SMALLTALK 	 02   |
-|GOODBYE	 03     |
-|OPENPROGRAM  04  |
-|NOOPERATION  10  |
-|INVALIDACT   99  |    
-|_________________|
+|
+|INTRODUCTION 00  
+|WELCOMEBACK  01  
+|SMALLTALK 	 02   
+|GOODBYE	 03     
+|OPENPROGRAM  04  
+|NOOPERATION  10  
+|INVALIDACT   99  
+|_________________
