@@ -26,6 +26,6 @@ The Variables:
   
   The checkString will do the job of getting everything you need checked before passing.
   
-  The MemoryChatHeadAllocation will get the Language Module, and all the variables got on the checkstring + LanguageFileOpener and allocate on memory the words.
+  The MemoryLanguageHeadAllocation will get the Language Module, and all the variables got on the checkstring + LanguageFileOpener and allocate on memory the words.
   
   The user input will get the user input and check if it coincides to any allocated word. If it is equal, it return it's action to the main function.
