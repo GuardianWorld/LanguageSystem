@@ -3,6 +3,9 @@ A small language system i made for use with a private project. How to use bellow
 
 ![Showcase](/Test.png)
 
+
+ps: The Communication system is a prototype of what you can do with the language system. It's as basic as it will get.
+
 How to use the LanguageSystem Module?
 
 --  On the libraries, there is some prototypes of variables, as well as some structures.
